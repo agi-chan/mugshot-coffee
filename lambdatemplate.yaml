@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  Template to create s3 bucket, psycopg2 layer, deploy a simple lambda function, which logs the lambda event.
+Parameters:
+  Roleparam: # <-- TeamName Parameter
+    Type: String
+    Description: lambda_role
+    Default: load failed
+Resources:
+
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    DeletionPolicy: Delete
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-08ca6be1dc85b0e84
+
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: mugshotbucketliam
+
+  MyLambdaLayer:
+    Type: AWS::Lambda::LayerVersion
+    Properties:
+      LayerName: psycopg2
+      Description: My Lambda Layer
+      Content:
+        S3Bucket: mugshotbucket
+        S3Key: lambda-layer.zip
+      CompatibleRuntimes:
+        - python3.12
+
+  LambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: MugshotTestLambda2
+      Runtime: python3.12
+      Handler: index.handler
+      Role: !Ref Roleparam
+      Code:
+        S3Bucket: mugshotbucket
+        S3Key: lambdafunction.zip
+      Layers:
+        - !Ref MyLambdaLayer
+        
+# You must specify the IAM role/security group
