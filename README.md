@@ -26,6 +26,8 @@ Our ETL pipeline processes data through the following stages:
 
 ![AWS architecture](https://github.com/agi-chan/mugshot-cafe/blob/main/aws.png?raw=true)
 
+![Grafana visualisations](https://github.com/agi-chan/mugshot-coffee/blob/main/visualisations.png?raw=true)
+
 Our solution utilizes the following AWS components:
 
 - S3: For storing raw CSV files
