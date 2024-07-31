@@ -86,7 +86,7 @@ Mugshot-Coffee/
 ### Local setup
 
 1. Clone the repository
-   - git clone https://github.com/generation-de-nat2/Mugshot-Coffee.git
+   - git clone https://github.com/agi-chan/mugshot-cafe.git
    - cd Mugshot-Coffee
 2. Set up envirnment variables
 3. Install dependecies.
