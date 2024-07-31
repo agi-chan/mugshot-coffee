@@ -24,9 +24,9 @@ Our ETL pipeline processes data through the following stages:
 
 ## Architecture
 
-![architecture](https://github.com/generation-de-nat2/Mugshot-Coffee/blob/main/graph%20crop.png?raw=true)
+![architecture](https://github.com/agi-chan/mugshot-cafe/blob/main/graph%20crop.png?raw=true)
 
-![AWS architecture](https://github.com/generation-de-nat2/Mugshot-Coffee/blob/main/aws.png?raw=true)
+![AWS architecture](https://github.com/agi-chan/mugshot-cafe/blob/main/aws.png?raw=true)
 
 Our solution utilizes the following AWS components:
 
