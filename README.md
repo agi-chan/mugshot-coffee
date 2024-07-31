@@ -4,14 +4,12 @@
 
 Mugshot Coffee is developing a sophisticated ETL (Extract, Transform, Load) pipeline to efficiently process and analyse transaction data. Our cloud-based solution leverages Amazon Web Services (AWS) to provide real-time insights for shop owners to enhance decision-making and business performance.
 
-
-
 ## Team members
 
-- Liam D
-- Alina A
-- Colvin S
-- Alex H
+- Liam D @Liam-Dignum
+- Alina A @alina951
+- Colvin S @csrs42
+- Alex H @agi-chan
   
 ## Project overview
 
