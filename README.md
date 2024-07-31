@@ -1,5 +1,7 @@
 # Mugshot Coffee
 
+![Grafana visualisations](https://github.com/agi-chan/mugshot-coffee/blob/main/visualisations.png?raw=true)
+
 ## Elevator pitch
 
 Mugshot Coffee is developing a sophisticated ETL (Extract, Transform, Load) pipeline to efficiently process and analyse transaction data. Our cloud-based solution leverages Amazon Web Services (AWS) to provide real-time insights for shop owners to enhance decision-making and business performance.
@@ -25,8 +27,6 @@ Our ETL pipeline processes data through the following stages:
 ![architecture](https://github.com/agi-chan/mugshot-cafe/blob/main/graph%20crop.png?raw=true)
 
 ![AWS architecture](https://github.com/agi-chan/mugshot-cafe/blob/main/aws.png?raw=true)
-
-![Grafana visualisations](https://github.com/agi-chan/mugshot-coffee/blob/main/visualisations.png?raw=true)
 
 Our solution utilizes the following AWS components:
 
