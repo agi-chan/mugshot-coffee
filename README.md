@@ -9,10 +9,10 @@ Mugshot Coffee is developing a sophisticated ETL (Extract, Transform, Load) pipe
 
 ## Team members
 
-- Liam D <a href="https://www.github.com/@Liam-Dignum" target="_blank">@Liam-Dignum</a>
-- Alina A <a href="https://www.github.com/@alina951" target="_blank">@alina951</a>
-- Colvin S <a href="https://www.github.com/@csrs42" target="_blank">@csrs42</a>
-- Alex H <a href="https://www.github.com/@agi-chan" target="_blank">@agi-chan</a>
+- Liam D <a href="https://www.github.com/Liam-Dignum" target="_blank">@Liam-Dignum</a>
+- Alina A <a href="https://www.github.com/alina951" target="_blank">@alina951</a>
+- Colvin S <a href="https://www.github.com/csrs42" target="_blank">@csrs42</a>
+- Alex H <a href="https://www.github.com/agi-chan" target="_blank">@agi-chan</a>
   
 ## Project overview
 
