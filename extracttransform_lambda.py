@@ -7,6 +7,7 @@ import pprint
 #import connect
 import pandas as pd
 
+
 s3 = boto3.resource('s3')
 sqs = boto3.client('sqs', region_name='eu-west-1')
 queue_url = 'https://sqs.eu-west-1.amazonaws.com/992382716453/mugshot-test'
